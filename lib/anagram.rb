@@ -10,5 +10,7 @@ class Anagram
   def match(arr)
     arr.each do |word| word.split("")
     if word == arr
-      
+      return arr
+    end
+  end
 end
