@@ -8,7 +8,7 @@ class Anagram
   end
   
   def match(arr)
-    arr.map |word|
+    arr.map do |word|
     end
   end
 end
