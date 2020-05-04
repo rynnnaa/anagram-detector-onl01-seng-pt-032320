@@ -10,7 +10,7 @@ class Anagram
   def match(arr)
     arr.each do |word|
       word.split("")}
-    if new_word.reverse == arr
+    if new_word == arr
       arr << new_word
     else 
       return nil
