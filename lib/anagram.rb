@@ -9,6 +9,5 @@ class Anagram
   
   def match(arr)
     arr.keep_if {|str|} word.split("").sort == str.split("").sort
-    end
   end
 end
